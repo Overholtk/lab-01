@@ -1,0 +1,53 @@
+/* color differentiation DELETE WHEN FINISHED!! */
+#a {
+  border: solid 2px orange;
+  background-color: lightsalmon;
+}
+
+#b{
+  border: solid 2px yellow;
+  background-color: lightyellow;
+}
+
+#c{
+  border: solid 2px green;
+  background-color: lightgreen;
+}
+
+#d {
+  border: solid 2px purple;
+  background-color: indigo;
+}
+
+#e {
+  border: solid 2px violet;
+  background-color: lavender;
+}
+
+#f {
+  border: solid 2px brown;
+  background-color: pink;
+}
+
+#g {
+  border: solid 2px black;
+  background-color: gray;
+}
+
+#h {
+  border: solid 2px lightblue;
+  background-color: white;
+}
+
+#i {
+  border: solid 2px chartreuse;
+  background-color: lime;
+}
+
+#blockOne {
+  border: solid 4px blue;
+}
+
+#blockTwo {
+  border: solid 4px red;
+}
