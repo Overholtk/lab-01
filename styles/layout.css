@@ -51,3 +51,40 @@
 #blockTwo {
   border: solid 4px red;
 }
+
+
+/* END DELETABLE STYLING */
+
+#a {
+  height: 75px;
+}
+
+#b {
+  height: 150px;
+}
+
+#blockOne section{
+  height: 125px;
+}
+#blockTwo section{
+  width: 236px;
+  height: 250px;
+}
+#leftSide {
+  float: left;
+}
+#rightSide{
+  float: right;
+}
+
+.oneWidth{
+  width: 480px;
+}
+#i{
+  height: 80px;
+  position: absolute;
+  top: 1011px;
+}
+*{
+  text-align: center;
+}
