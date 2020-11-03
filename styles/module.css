@@ -1,0 +1,83 @@
+@media (min-width: 960px){
+
+  /* full doc styling: */
+  *{
+    text-align: center;
+  }
+
+  /* header: */
+  #a {
+    height: 100px;
+    width: 960px;
+    background-color: rgb(105, 45, 105);
+  }
+
+  /* body: */
+  #b {
+    height: 600px;
+    width: 200px;
+    float: left;
+    background-color: rgb(75, 40, 75);
+  }
+
+  /* block one styling: */
+  #blockOne {
+    width: 960px;
+    margin: 0px;
+  }
+
+  #blockOne section {
+    width: 380px;
+    height: 200px;
+  }
+  #c{
+    float: left;
+    background-color: rgb(185, 108, 185);
+  }
+  #d {
+    float: right;
+    background-color: rgb(151, 85, 151);
+  }
+  /* end block one styling */
+
+  /* block two styling: */
+  #blockTwo{
+    width: 960px;
+  }
+
+  #blockTwo section{
+    width: 190px;
+    height: 250px;
+    display: inline-block;
+  }
+  #e {
+    background-color: lightgreen;
+  }
+  
+  #f {
+    background-color: rgb(131, 177, 131);
+  }
+  
+  #g {
+    background-color: rgb(102, 122, 102);
+  }
+  #h {
+    float: right;
+    background-color: gray;
+  }
+  
+  #e, #f, #g {
+    float: left;
+  }
+  /* end block two styling */
+  
+  /* footer: */
+  #i {
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    width: 760px;
+    height: 150px;
+    background-color: rgb(100, 65, 124);
+  }
+}
