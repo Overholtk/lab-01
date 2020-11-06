@@ -7,23 +7,24 @@
 
   /* header: */
   #a {
-    height: 100px;
-    width: 960px;
+    height: 5em;
+    width: 100%;
     background-color: rgb(105, 45, 105);
   }
 
   /* body: */
   #b {
-    height: 600px;
-    width: 200px;
+    height: 35em;
+    width: 20%;
     float: left;
     background-color: rgb(75, 40, 75);
   }
 
   /* block one styling: */
   #blockOne {
-    width: 960px;
-    margin: 0px;
+    display: grid;
+    height: 35em;
+    grid-template: 20em 15em / 50%;
   }
 
   #blockOne section {
@@ -73,11 +74,8 @@
   
   /* footer: */
   #i {
-    position: absolute;
-    top: 550px;
-    left: 200px;
-    width: 760px;
-    height: 150px;
+    width: 100%;
+    height: 5em;
     background-color: rgb(100, 65, 124);
   }
 }
